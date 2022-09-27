@@ -18,10 +18,10 @@ import java.util.Map;
  * @version 1.0
  * @since 2017/2/23 下午1:39
  */
-class Warehouse {
+public class Warehouse {
     // Cache route and metas
     static Map<String, Class<? extends IRouteGroup>> groupsIndex = new HashMap<>();
-    static Map<String, RouteMeta> routes = new HashMap<>();
+    public static Map<String, RouteMeta> routes = new HashMap<>();
 
     // Cache provider
     static Map<Class, IProvider> providers = new HashMap<>();
